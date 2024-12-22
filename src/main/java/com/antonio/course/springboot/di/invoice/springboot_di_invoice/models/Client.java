@@ -1,5 +1,8 @@
 package com.antonio.course.springboot.di.invoice.springboot_di_invoice.models;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Client {
 
   private String name;
